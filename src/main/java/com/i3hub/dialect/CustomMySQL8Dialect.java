@@ -9,8 +9,9 @@ public class CustomMySQL8Dialect extends MySQL8Dialect {
 
     public CustomMySQL8Dialect() {
         super();
+        this.registerColumnType(Types.OTHER, JsonStringType.class.getName());
         this.registerHibernateType(
-            Types.OTHER, JsonStringType.class.getName()
+                Types.OTHER, JsonStringType.class.getName()
         );
     }
 }
