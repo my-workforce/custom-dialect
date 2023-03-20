@@ -7,7 +7,9 @@
     <groupId>org.i3hub</groupId>
     <artifactId>custom-dialect</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <packaging>jar</packaging>
+    <name>Custom Dialect</name>
+    <description>Custom Dialect</description>
     <distributionManagement>
         <repository>
             <id>github</id>
