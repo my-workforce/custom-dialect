@@ -1,4 +1,4 @@
-package org.i3hub.dialect;
+package com.i3hub.dialect;
 
 import com.vladmihalcea.hibernate.type.json.JsonStringType;
 import org.hibernate.dialect.MySQL8Dialect;
